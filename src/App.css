@@ -12,6 +12,7 @@
 	justify-content: space-between;
 }
 .nav h1{padding-left: 50px;}
+.logo>a{font-size: 30px; color: #88e3f8;}
 .nav .menu{list-style:none; display: flex; padding-right: 50px;}
 .nav .menu li{padding: 0 20px;}
 .detailCard{display: flex; padding: 50px 100px}
@@ -19,10 +20,10 @@
 .info{
 	text-align: left;
 }
-a{text-decoration: none; color: #000}
+a{text-decoration: none; color: #000;}
 h4{font-size: 20px;}
-p{color: #393939}
-button{margin-top: 50px; background: #066c88; color: #fff; padding: 10px 30px; border:none}
+p{color: #393939;}
+button{margin-top: 50px; background: #066c88; color: #fff; padding: 10px 30px; border:none;}
 .price{font-size: 18px; color:#000; font-weight: bold;}
 .alert{background: #ddd; padding: 10px;}
 
@@ -51,3 +52,9 @@ button{margin-top: 50px; background: #066c88; color: #fff; padding: 10px 30px; b
 }
 .start{opacity: 0;}
 .end{opacity: 1; transition: opacity 0.5s;}
+
+.cart{padding: 50px;}
+.cart table{border-collapse: collapse; width: 100%;}
+/* .cart table thead{} */
+.cart table th{border: 1px solid #ddd; padding: 5px 10px;}
+.cart table td{border: 1px solid #ddd; padding: 5px 10px;}
